@@ -1,20 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Sans, Poppins } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/shared/Navbar";
-import Footer from "@/components/shared/Footer";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight:["400","500","600","700"],
-  variable: "--font-poppins",
-});
-
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  weight:["400","500","600","700"],
-  variable: "--font-dm-sans",
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -29,11 +14,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} ${dmSans.variable} antialiased`}
+        className={`font-dm-sans antialiased container mx-auto`}
       >
-        <Navbar/>
         {children}
-        <Footer/>
       </body>
     </html>
   );
