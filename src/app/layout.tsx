@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`font-dm-sans antialiased container mx-auto`}
+        className={`font-dm-sans antialiased `}
       >
         {children}
       </body>
