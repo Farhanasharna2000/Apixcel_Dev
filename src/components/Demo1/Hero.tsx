@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           <button className="px-4 py-3 w-[180px] md:w-[193px] h-[48px] md:h-[52px] bg-gradient-to-r from-[#E9AD83] to-[#9B1FE8] text-white font-medium rounded-[68px] cursor-pointer text-sm md:text-base">
             Login with Steam
           </button>
-          <button className="absolute right-[-22px] top-1/2 -translate-y-1/2 size-[40px] md:size-[52px] flex items-center justify-center bg-gradient-to-r from-[#E9AD83] to-[#9B1FE8] text-white rounded-full cursor-pointer">
+          <button className="absolute right-[-47px] top-1/2 -translate-y-1/2 size-[40px] md:size-[52px] flex items-center justify-center bg-[#b854c5] text-white rounded-full cursor-pointer">
             <Image src="/arrow.svg" alt="arrow" width={10} height={10} />
           </button>
         </div>
