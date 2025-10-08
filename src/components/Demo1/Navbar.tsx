@@ -14,7 +14,13 @@ const Navbar: React.FC = () => {
         {/* Left side */}
         <div className="flex items-center gap-4 md:gap-[31px] w-full md:w-auto">
           {/* Logo */}
-          <Image src="/logo.png" alt="logo" width={116} height={57.31} className="w-[90px] md:w-[116px] h-auto" />
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={116}
+            height={57.31}
+            className="w-[90px] md:w-[116px] h-auto"
+          />
 
           {/* Search bar  */}
           <div className="hidden md:block flex-1">
@@ -33,7 +39,9 @@ const Navbar: React.FC = () => {
 
         {/* Right side buttons */}
         <div className="hidden md:flex items-center gap-4">
-          <button className="font-medium text-white cursor-pointer">Market</button>
+          <button className="font-medium text-white cursor-pointer">
+            Market
+          </button>
           <button className="px-2 py-4 w-[123px] h-[53.14px] text-[#F5F5F5] border-[1.5px] rounded-[68px] font-medium bg-[#6b53a2] cursor-pointer">
             Sign Up
           </button>
@@ -59,7 +67,7 @@ const Navbar: React.FC = () => {
             <input
               type="text"
               placeholder="Search Skins..."
-              className="w-full h-[48px] px-4 pr-10 bg-[#6b3b83] border rounded-[68px] text-sm text-[#F5F5F56E]/43 focus:outline-none"
+              className="w-full h-[48px] px-4 pr-10 bg-[#6b3b83] border rounded-[68px] text-sm text-[#F5F5F56E]/43  placeholder:text-white focus:outline-none"
             />
             <button className="absolute right-3 top-1/2 -translate-y-1/2">
               <Image src="/search.svg" alt="search" width={20} height={20} />
@@ -69,7 +77,7 @@ const Navbar: React.FC = () => {
           {/* Buttons */}
           <div className="flex flex-col gap-3">
             <button className="font-medium text-white">Market</button>
-            <button className="w-full py-3 border rounded-[68px] font-medium bg-[#6b53a2]">
+            <button className="w-full py-3  rounded-[68px] font-medium bg-[#6b53a2]">
               Sign Up
             </button>
             <button className="w-full py-3 bg-gradient-to-r from-[#E9AD83] to-[#9B1FE8] text-white font-medium rounded-[68px]">

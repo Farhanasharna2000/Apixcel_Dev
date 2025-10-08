@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           <span className="text-[#E9AE82]">Marketplace</span> for Gamers{" "}
           <span className="block">Who Mean Business</span>
         </h1>
-        <p className="text-[#F5F5F5] font-medium mt-4 md:mt-[13.55px] mb-8 md:mb-[42.72px] text-sm sm:text-base max-w-md mx-auto md:mx-0">
+        <p className="text-[#F5F5F5] font-medium mt-4 md:mt-[13.55px] mb-8 md:mb-[42.72px] text-sm sm:text-base  md:mx-0">
           Buy, sell, and trade skins securely with unbeatable prices and
           transparency
         </p>
@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
         />
       </div>
 
-      {/* Feature cards at bottom */}
+      {/* Features at bottom */}
       <div className="absolute bottom-0 w-full px-4 md:px-0">
         <div className="bg-[#341d44] rounded-3xl p-4 md:p-6">
           <div className="flex flex-wrap md:flex-nowrap items-center justify-center md:justify-start gap-6 md:gap-[70px]">

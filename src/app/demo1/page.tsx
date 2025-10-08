@@ -9,7 +9,7 @@ const Demo1Page: React.FC = () => {
       style={{ backgroundImage: "url('bg.jpg')" }}
     >
       <div className="absolute inset-0 bg-black/45"></div>
-      <div className="relative z-10 pb-20">
+      <div className="relative z-10 pb-10 sm:pb-15 md:pb-20">
         <Navbar />
         <Hero/>
       </div>
