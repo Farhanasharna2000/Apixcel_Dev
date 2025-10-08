@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
                 className="w-[268px] h-[52px] px-5 pr-12 bg-[#522b63] border rounded-[68px] text-[#F5F5F56E]/43 text-sm placeholder-[#F5F5F56E]/430 focus:outline-none  transition-all"
               />
               <button className="absolute -right-12 top-1/2 -translate-y-1/2 size-[52px] flex items-center justify-center bg-[#522b63]  rounded-full transition-colors cursor-pointer">
-                <Image src="/search.png" alt="" width={24} height={24} />
+                <Image src="/search.svg" alt="" width={24} height={24} />
               </button>
             </div>
           </div>
